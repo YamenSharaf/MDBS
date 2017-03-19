@@ -22424,12 +22424,17 @@ ul.instagram-photos li {
   margin-bottom: 30px;
   text-transform: uppercase;
   color: #2D3047; }
+  .about-subtitle span {
+    font-weight: bold;
+    margin-right: 10px; }
 
-.person-about .btn {
-  font-family: 'Oswald', sans-serif !important;
-  color: #EFF0F3 !important;
-  letter-spacing: 3px;
-  line-height: 200%; }
+.person-about {
+  margin-left: 16px; }
+  .person-about .btn {
+    font-family: 'Oswald', sans-serif !important;
+    color: #EFF0F3 !important;
+    letter-spacing: 3px;
+    line-height: 200%; }
 
 .person-about .subtitle {
   font-weight: 100;

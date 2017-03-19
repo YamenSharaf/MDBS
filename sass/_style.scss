@@ -87,9 +87,15 @@
   text-transform: uppercase;
   color: #2D3047 ;
 
+  span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
 }
 
 .person-about {
+  margin-left: 16px;
   .btn {
     font-family: 'Oswald', sans-serif !important;
     color: #EFF0F3 !important;
