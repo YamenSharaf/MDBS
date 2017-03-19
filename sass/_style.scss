@@ -1,0 +1,164 @@
+//NAVBAR
+.navbar {
+  li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #754792;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    span {
+      color: #EFF0F3 !important;
+    }
+  }
+}
+
+.nav-content {
+  margin-left: 30px;
+}
+
+.top-buffer {
+  margin-top: 30px;
+}
+
+//SECTION A
+.showcase {
+    background-color: #362143;
+    height: 100%;
+    min-height: 80vh;
+    img {
+      margin-top: 20%;
+    }
+    h2 {
+      color: #DB649C !important;
+      font-family: 'Raleway', sans-serif;
+      margin-top: 20px;
+    }
+}
+
+//SECTION B
+.section-b {
+  height: 100%;
+  min-height: 80vh;
+  background-color: #DB649C !important;
+  color: #EFF0F3 !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+//Underline middle out
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 2px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .4s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #DB649C;
+}
+
+/* --------------------------------- */
+/* 5. About Me Section Styles
+ ----------------------------------- */
+
+.about-inner {
+    margin: 60px 0;
+}
+
+.person-about .title {
+    margin-bottom: 15px;
+}
+
+.about-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #2D3047 ;
+
+}
+
+.person-about {
+  .btn {
+    font-family: 'Oswald', sans-serif !important;
+    color: #EFF0F3 !important;
+    letter-spacing: 3px;
+    line-height: 200%;
+
+  }
+}
+
+.person-about .subtitle {
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.person-img img {
+    border: 4px solid #362143;
+
+}
+
+.person-about p {
+  color: #EFF0F3 !important;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+.person-info h5 {
+  border-bottom: 1px solid #362143;
+  color: #EFF0F3;
+  font-size: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}
+
+.person-info h5 span {
+  display: inline-block;
+  min-width: 70px;
+}
+
+.person-about > a.btn-large {
+    background-color: #fff;
+}
+
+.person-about > a.btn-large {
+    font-size: 14px;
+}
+
+.person-about > a.btn-large,
+.home-content > a.btn-large {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.person-about > a.btn-large i {
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+.about-social {
+  margin: 25px 0 0;
+}
+
+.about-social ul li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.about-social ul li a i{
+   font-size: 24px;
+}
