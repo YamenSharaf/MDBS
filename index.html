@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
     <link href='css/devicons.min.css' rel='stylesheet'>
     <!-- IMPORT PLUGINS-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="dist/skill-bar/css/style.css">
     <link rel="stylesheet" href="dist/glyph-snip/css/snip.css">
+
 </head>
 
 <body>
@@ -75,7 +77,7 @@
         <div class='container'>
             <div class='row'>
                 <div class="col-md-4 top-buffer">
-                    <div class="person-info">
+                    <div data-aos="zoom-in" class="person-info">
                         <h3 class="text-center about-subtitle">Personal Information</h3>
                         <h5><span class="highlight">Name:</span> Yamen Sharaf</h5>
                         <h5><span>Age:</span> 27 Years</h5>
@@ -105,13 +107,13 @@
 
                 </div>
                 <div class="col-md-4 top-buffer">
-                    <div class="person-img img-responsive wow fadeIn">
+                    <div data-aos="fade-up" class="person-img img-responsive wow fadeIn">
                         <img class="z-depth-1 img-responsive" src="img/yamen.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-4 top-buffer bottom-buffer">
 
-                    <div class="person-about">
+                    <div data-aos="zoom-in" class="person-about">
                         <h3 class="about-subtitle text-center">My Story</h3>
                         <p class="subtext">A communication engineer gone wild. A coder in the making. Once a geek, always a geek. Ever since he was 12 he's been fond of everything technology. He's witnessed the web at its worse and vowed to make it better, well not really,
                             but the thought crossed his mind.
@@ -263,7 +265,7 @@
                 <div class='row bottom-buffer'>
                     <div class="col-md-4 top-buffer">
                         <!--Card-->
-                        <div class="card">
+                        <div data-aos="fade-right" class="card">
                             <!--Card image-->
                             <div class="view overlay hm-white-slight">
                                 <img src="img/logo-card.jpg" class="img-fluid" alt="">
@@ -288,7 +290,7 @@
 
                     <div class="col-md-4 top-buffer">
                         <!--Card-->
-                        <div class="card">
+                        <div data-aos="fade-up" class="card">
                             <!--Card image-->
                             <div class="view overlay hm-white-slight">
                                 <img src="img/md-card.jpg" class="img-fluid" alt="">
@@ -313,7 +315,7 @@
 
                     <div class="col-md-4 top-buffer">
                         <!--Card-->
-                        <div class="card">
+                        <div data-aos="fade-left" class="card">
                             <!--Card image-->
                             <div class="view overlay hm-white-slight">
                                 <img src="img/min-buzz.jpg" class="img-fluid" alt="">
@@ -352,8 +354,12 @@
     <script src="dist/skill-bar/lib/jquery.appear/jquery.appear.js"></script>
     <script src="dist/skill-bar/js/custom.js"></script>
     <script src="dist/smoothscroll/smooth-scroll.min.js" charset="utf-8"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
         smoothScroll.init();
+    </script>
+    <script>
+        AOS.init();
     </script>
 
 
