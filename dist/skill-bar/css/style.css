@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.wraper {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0px 15px 0px 15px;
+}
+
+.wraper:before, .wraper:after {
+    display: table;
+    content: " ";
+}
+
+.wraper:after {
+    clear: both;
+}
+
+
+/* Skills Style 6 */
+
+.skillst6 {
+    width: 100%;
+    color: #EFF0F3;
+}
+
+.skillst6 .skillbar {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skillst6 .count-bar {
+    height: 100%;
+    width: 0px;
+    position: relative;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+//color-1 = HTML5
+.skillst6 .count-bar.color-1 {
+    background-color: #338ae7;
+}
+
+.skillst6 .count-bar.color-2 {
+    background-color: #403049;
+}
+
+.skillst6 .count-bar.color-3 {
+    background-color: #403049;
+}
+
+.skillst6 .count-bar.color-4 {
+    background-color: #2d7da5;
+}
+
+.skillst6 .count-bar.color-5 {
+    background-color: #f75d41;
+}
+
+.skillst6 .count-bar.color-6 {
+    background-color: #1565C0;
+}
+
+.skillst6 .count-bar.color-7 {
+    background-color: #AA00FF;
+}
+
+.skillst6 .count-bar.color-8 {
+    background-color: #FFEB3B;
+}
+
+.skillst6 .count-bar.color-9 {
+    background-color: #1565C0;
+}
+
+.skillst6 .count-bar.color-10 {
+    background-color: #B39DDB;
+}
+
+.skillst6 .count-bar.color-11 {
+    background-color: #66BB6A;
+}
+
+.skillst6 .title {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 12px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.skillst6 .count {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/*Coustom Media Query Css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {}
