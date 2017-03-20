@@ -22530,7 +22530,9 @@ ul.instagram-photos li {
     font-family: 'Oswald', sans-serif !important;
     letter-spacing: 4px; }
   .section-d .card h4 {
-    color: #403049 !important; }
+    color: #403049 !important;
+    font-family: 'Oswald', sans-serif !important;
+    letter-spacing: 1px; }
   .section-d .card p {
     color: #403049 !important; }
 
