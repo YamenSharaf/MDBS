@@ -216,6 +216,7 @@
 .tool {
   font-size: 300%;
   color: #403049 !important;
+  letter-spacing: 5px;
 }
 
 }
@@ -234,6 +235,9 @@
   }
 
   .card {
+    .card-block {
+      background-color: #EFF0F3 !important;
+    }
 
     h4 {
       color: #403049 !important;

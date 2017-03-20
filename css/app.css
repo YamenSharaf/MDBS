@@ -22518,7 +22518,8 @@ ul.instagram-photos li {
     font-family: 'Raleway', sans-serif !important; }
   .section-c .tool {
     font-size: 300%;
-    color: #403049 !important; }
+    color: #403049 !important;
+    letter-spacing: 5px; }
 
 .section-d {
   height: 100%;
@@ -22531,6 +22532,8 @@ ul.instagram-photos li {
     color: #EFF0F3 !important;
     font-family: 'Oswald', sans-serif !important;
     letter-spacing: 4px; }
+  .section-d .card .card-block {
+    background-color: #EFF0F3 !important; }
   .section-d .card h4 {
     color: #403049 !important;
     font-family: 'Oswald', sans-serif !important;
