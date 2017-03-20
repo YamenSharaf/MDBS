@@ -31,15 +31,15 @@
         </button>
             <!-- NAV ITEMS -->
             <div class="collapse navbar-collapse" id="navbarNav1">
-                <ul class="navbar-nav nav-justified mr-auto smooth-scroll">
+                <ul class="navbar-nav nav-justified mr-auto">
                     <li class="nav-item">
-                        <a href="#about-me" class="nav-link"><span class="sliding-middle-out">About</span></a>
+                        <a data-scroll href="#about-me" class="nav-link"><span class="sliding-middle-out">About</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills" class="nav-link"><span class="sliding-middle-out">Skills</span></a>
+                        <a data-scroll href="#skills" class="nav-link"><span class="sliding-middle-out">Skills</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link"><span class="sliding-middle-out">Portfolio</span></a>
+                        <a data-scroll href="#portfolio" class="nav-link"><span class="sliding-middle-out">Portfolio</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link"><span class="sliding-middle-out">Blog</span></a>
@@ -351,7 +351,10 @@
     <!-- PLUGINS SCRIPTS-->
     <script src="dist/skill-bar/lib/jquery.appear/jquery.appear.js"></script>
     <script src="dist/skill-bar/js/custom.js"></script>
-    <script src="dist/smooth-scroll/jquery.scrollNav.min.js"></script>
+    <script src="dist/smoothscroll/smooth-scroll.min.js" charset="utf-8"></script>
+    <script>
+        smoothScroll.init();
+    </script>
 
 
 </body>
