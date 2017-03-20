@@ -22357,6 +22357,8 @@ ul.instagram-photos li {
   filter: FlipV;
   -ms-filter: "FlipV"; }
 
+.navbar .navbar-toggler {
+  z-index: 2; }
 .navbar li {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
