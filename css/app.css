@@ -22553,8 +22553,6 @@ ul.instagram-photos li {
     color: #EFF0F3 !important;
     font-family: 'Oswald', sans-serif !important;
     letter-spacing: 4px; }
-  .section-d .info-card {
-    margin: auto; }
   .section-d .card .card-block {
     background-color: #EFF0F3 !important; }
   .section-d .card h4 {
@@ -22591,5 +22589,18 @@ ul.instagram-photos li {
     color: #403049 !important;
     font-family: 'Oswald', sans-serif !important;
     letter-spacing: 1px; }
+
+.footer {
+  height: 100%;
+  min-height: 6vh;
+  background-color: #362143 !important;
+  color: #EFF0F3 !important;
+  font-family: 'Raleway', sans-serif; }
+  .footer .footer-content {
+    margin-top: 15px; }
+  .footer a {
+    color: #EFF0F3 !important; }
+    .footer a:hover {
+      color: #DB649C !important; }
 
 /*# sourceMappingURL=app.css.map */
