@@ -22377,6 +22377,21 @@ ul.instagram-photos li {
 .top-buffer {
   margin-top: 30px; }
 
+.color-overlay {
+  display: inline-block;
+  position: relative; }
+  .color-overlay:after {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #DB649C;
+    opacity: 0.4; }
+
 .showcase {
   background-color: #362143;
   height: 100%;
@@ -22387,6 +22402,8 @@ ul.instagram-photos li {
     color: #DB649C !important;
     font-family: 'Raleway', sans-serif;
     margin-top: 20px; }
+    .showcase h2::selection {
+      background: white; }
 
 .section-b {
   height: 100%;
@@ -22454,6 +22471,8 @@ ul.instagram-photos li {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 35px; }
+  .person-about p::selection {
+    background: #403049; }
 
 .person-info h5 {
   border-bottom: 1px solid #362143;
@@ -22461,6 +22480,8 @@ ul.instagram-photos li {
   font-size: 16px;
   margin-bottom: 16px;
   padding-bottom: 16px; }
+  .person-info h5::selection {
+    background: #403049; }
 
 .person-info h5 span {
   display: inline-block;
@@ -22532,6 +22553,8 @@ ul.instagram-photos li {
     color: #EFF0F3 !important;
     font-family: 'Oswald', sans-serif !important;
     letter-spacing: 4px; }
+  .section-d .info-card {
+    margin: auto; }
   .section-d .card .card-block {
     background-color: #EFF0F3 !important; }
   .section-d .card h4 {
@@ -22540,5 +22563,33 @@ ul.instagram-photos li {
     letter-spacing: 1px; }
   .section-d .card p {
     color: #403049 !important; }
+    .section-d .card p::selection {
+      background: #E48EB7; }
+
+.section-e {
+  height: 100%;
+  min-height: 55vh;
+  background-color: #DB649C !important;
+  color: #EFF0F3 !important;
+  font-family: 'Raleway', sans-serif; }
+  .section-e p {
+    color: #EFF0F3 !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 35px; }
+    .section-e p::selection {
+      background: #403049; }
+  .section-e h2 {
+    padding-bottom: 20px;
+    color: #EFF0F3 !important;
+    font-family: 'Oswald', sans-serif !important;
+    letter-spacing: 4px; }
+  .section-e .card .card-block {
+    background-color: #EFF0F3 !important; }
+  .section-e .card h5 {
+    color: #403049 !important;
+    font-family: 'Oswald', sans-serif !important;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=app.css.map */
