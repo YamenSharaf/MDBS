@@ -22595,7 +22595,8 @@ ul.instagram-photos li {
   min-height: 6vh;
   background-color: #362143 !important;
   color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 3px; }
   .footer .footer-content {
     margin-top: 15px; }
   .footer a {
