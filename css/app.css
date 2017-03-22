@@ -22604,12 +22604,15 @@ ul.instagram-photos li {
   width: 100%;
   min-width: 60vh; }
   .modal .modal-dialog .modal-content {
-    background-color: #362143 !important; }
+    background-color: #DB649C !important; }
     .modal .modal-dialog .modal-content .modal-header {
-      background-color: #362143 !important;
+      background-color: #DB649C !important;
       color: #EFF0F3 !important;
       font-family: 'Oswald', sans-serif !important; }
     .modal .modal-dialog .modal-content .modal-body {
       background-color: #EFF0F3 !important; }
+.modal .modal-footer .form-group {
+  height: 100%;
+  margin-bottom: 0px !important; }
 
 /*# sourceMappingURL=app.css.map */

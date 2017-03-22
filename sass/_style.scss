@@ -358,9 +358,9 @@
     width: 100%;
     min-width: 60vh;
     .modal-content {
-      background-color: #362143 !important;
+      background-color: #DB649C !important;
       .modal-header {
-        background-color: #362143 !important;
+        background-color: #DB649C !important;
         color: #EFF0F3 !important;
         font-family: 'Oswald', sans-serif !important;
       }
@@ -368,6 +368,13 @@
         background-color: #EFF0F3 !important;
       }
 
+    }
+
+  }
+  .modal-footer {
+    .form-group {
+      height: 100%;
+      margin-bottom: 0px !important;
     }
 
   }
