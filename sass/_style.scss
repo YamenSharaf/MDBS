@@ -318,6 +318,7 @@
     }
   }
 }
+
 //FOOTER
 .footer {
   height: 100%;
@@ -335,4 +336,35 @@
       color: #DB649C !important;
     }
   }
+}
+
+//CONTACT MODAL
+
+.modal {
+  ul li a i:hover {
+    color: #DB649C !important;
+  }
+
+
+  .modal-dialog
+  {
+    width: 100%;
+    min-width: 60vh;
+    .modal-content {
+      background-color: #362143 !important;
+      .modal-header {
+        background-color: #362143 !important;
+        color: #EFF0F3 !important;
+        font-family: 'Oswald', sans-serif !important;
+      }
+      .modal-body {
+        background-color: #EFF0F3 !important;
+      }
+
+    }
+
+  }
+}
+.mdi {
+  margin-right: 12px;
 }

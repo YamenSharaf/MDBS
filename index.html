@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="dist/skill-bar/css/style.css">
     <link rel="stylesheet" href="dist/glyph-snip/css/snip.css">
 
+
 </head>
 
 <body>
@@ -282,7 +283,7 @@
                                 <h4 class="card-title">This very website</h4>
                                 <!--Text-->
                                 <p class="card-text">Made from scratch using Bootstrap, Sass and some old fashioned CSS. Meant to establish my very own brand. Your website can be next and I'll even do free work for non-profits and charities. </p>
-                                <a href="#" class="btn btn-block btn-secondary">You're here</a>
+                                <a href="#" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>You're here</a>
                             </div>
                             <!--/.Card content-->
                         </div>
@@ -307,7 +308,7 @@
                                 <h4 class="card-title">Mediocre Designs</h4>
                                 <!--Text-->
                                 <p class="card-text">My first Bootstrap project built upon a template. Was meant to be a landing page, but since then I've opted to making my own themes from scratch, and it's been quite fun.</p>
-                                <a href="http://ysharaf.tk/" class="btn btn-block btn-secondary">Take a look</a>
+                                <a href="http://ysharaf.tk/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>Take a look</a>
                             </div>
                             <!--/.Card content-->
                         </div>
@@ -332,7 +333,7 @@
                                 <h4 class="card-title">Minimal Buzz</h4>
                                 <!--Text-->
                                 <p class="card-text">A bootstrap template/ theme I made in my spare time using material design elements, geared towards business users. Fairly minimal and free for anyone to use and modify as they see fit.</p>
-                                <a href="https://github.com/YamenSharaf/Minimal-Buzz-minimal-business-theme/" class="btn btn-block btn-secondary">View Repository</a>
+                                <a href="https://github.com/YamenSharaf/Minimal-Buzz-minimal-business-theme/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>View Repository</a>
                             </div>
                             <!--/.Card content-->
                         </div>
@@ -346,7 +347,7 @@
                                 <p style="margin-top: 10px" class="col-md-8">If you're associated with a charitable organization or any non-profit I'll build you a website for free. If you're not you can contact me to talk business or just say hi.</p>
                                 <div class="col-md-1">
                                 </div>
-                                <button type="button" class="col-md-2 btn btn-secondary" data-toggle="modal" data-target="#modal-contact">Contact Me
+                                <button type="button" class="col-md-2 btn btn-secondary" data-toggle="modal" data-target="#modal-contact"><i class="mdi mdi-contact-mail"></i>Contact Me
                                 </button>
 
                             </div>
@@ -357,61 +358,6 @@
         </div>
     </section>
     <!-- END SECTION D -->
-
-    <!-- MODAL SECTION -->
-    <div class="modal fade modal-ext" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <!--Content-->
-            <div class="modal-content">
-                <!--Header-->
-                <div class="modal-header">
-                    <h4 class="modal-title w-100" id="myModalLabel">Get in touch</h4>
-                </div>
-                <!--Body-->
-                <div class="modal-body">
-                    <p>What's on your mind?</p>
-                    <br>
-                    <div class="md-form">
-                        <i class="fa fa-user prefix"></i>
-                        <input type="text" id="form22" class="form-control">
-                        <label for="form42">Your name</label>
-                    </div>
-
-                    <div class="md-form">
-                        <i class="fa fa-envelope prefix"></i>
-                        <input type="text" id="form32" class="form-control">
-                        <label for="form34">Your email</label>
-                    </div>
-
-                    <div class="md-form">
-                        <i class="fa fa-tag prefix"></i>
-                        <input type="text" id="form32" class="form-control">
-                        <label for="form34">Subject</label>
-                    </div>
-
-                    <div class="md-form">
-                        <i class="fa fa-pencil prefix"></i>
-                        <textarea type="text" id="form8" class="md-textarea"></textarea>
-                        <label for="form8">Message</label>
-                    </div>
-
-                    <div class="text-center">
-                        <button class="btn btn-primary">Submit</button>
-
-                        <div class="call">
-                            <p>Or would you prefer to call? <span class="cf-phone"><i class="fa fa-phone"> +20 1111 046486</i></span></p>
-                        </div>
-                    </div>
-                </div>
-                <!--Footer-->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-            <!--/.Content-->
-        </div>
-    </div>
-    <!-- END MODAL SECTION -->
 
     <!--SECTION E: Blog-->
     <section id="blog" class="section-e col-md-12">
@@ -451,6 +397,7 @@
         </div>
     </section>
 
+
     <!--FOOTER-->
     <section class="footer col-md-12">
         <div class="row">
@@ -460,17 +407,116 @@
             </div>
 
         </div>
-
-
-
-        <!--/.Copyright-->
-
     </Section>
     <!--/.Footer-->
 
+    <!-- MODAL SECTION -->
+    <div class="modal fade modal-ext" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <!--Content-->
+            <div class="modal-content col-md-10">
+                <!--Header-->
+                <div class="modal-header">
+                    <h4 class="modal-title w-100 text-center" id="myModalLabel"><i class="mdi mdi-contact-mail"></i>Get in touch</h4>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="col-md-12">
+
+                                <div class="form-group md-form">
+                                    <i class="mdi mdi-account prefix"></i>
+                                    <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                                    <label for="name">Your name</label>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="col-md-12">
+                                <div class="form-group md-form">
+                                    <i class="mdi mdi-mail-ru prefix"></i>
+                                    <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <label for="form2">Your email</label>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="col-md-12">
+                                <div class="form-group md-form">
+                                    <i class="mdi mdi-phone prefix"></i>
+                                    <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <label for="form2">Your phone number</label>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="col-md-12">
+                                <div class="form-group md-form">
+                                    <i class="mdi mdi-message prefix"></i>
+                                    <textarea class="form-control md-textarea" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <label for="form2">What's on your mind?</label>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group col-md-12">
+                                    <button type="submit" class="btn btn-secondary btn-block"> <i class="mdi mdi-send"></i> Send</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal"><i class="mdi mdi-close"></i> Close</button>
+                            </div>
 
 
+                        </div>
+                    </form>
 
+                    <div class="call text-center">
+                        <p>Not a fan of email? Call or text me somewhere else...</p>
+                        <div class="row about-social text-center">
+                            <div class="col-md-2">
+
+                            </div>
+                            <div class="col-md-8">
+
+
+                                <ul class="text-center">
+                                    <li>
+                                        <a href="tel:+20-111-104-6486"><i class="mdi mdi-phone"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://m.me/YamenSharaf"><i class="mdi mdi-facebook-messenger"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=201111046486&text=Hi%20I'm%20coming%20from%20the%20web"><i class="mdi mdi-whatsapp"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+
+        </div>
+
+    </div>
+    <!--/.Content-->
+    </div>
+    </div>
+    <!-- END MODAL SECTION -->
 
     <!-- Scripts Import -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -481,6 +527,8 @@
     <script src="dist/skill-bar/js/custom.js"></script>
     <script src="dist/smoothscroll/smooth-scroll.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="dist/contactme/jqBootstrapValidation.js"></script>
+    <script src="dist/contactme/contact_me.js"></script>
     <script>
         smoothScroll.init();
         AOS.init();

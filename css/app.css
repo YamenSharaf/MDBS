@@ -22604,4 +22604,21 @@ ul.instagram-photos li {
     .footer a:hover {
       color: #DB649C !important; }
 
+.modal ul li a i:hover {
+  color: #DB649C !important; }
+.modal .modal-dialog {
+  width: 100%;
+  min-width: 60vh; }
+  .modal .modal-dialog .modal-content {
+    background-color: #362143 !important; }
+    .modal .modal-dialog .modal-content .modal-header {
+      background-color: #362143 !important;
+      color: #EFF0F3 !important;
+      font-family: 'Oswald', sans-serif !important; }
+    .modal .modal-dialog .modal-content .modal-body {
+      background-color: #EFF0F3 !important; }
+
+.mdi {
+  margin-right: 12px; }
+
 /*# sourceMappingURL=app.css.map */
