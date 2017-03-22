@@ -255,6 +255,9 @@
   background-color: #403049 !important;
   color: #EFF0F3 !important;
   font-family: 'Raleway', sans-serif;
+  .mdi {
+    margin-right: 12px;
+  }
   h2 {
     padding-bottom: 20px;
     color: #EFF0F3 !important;
@@ -341,6 +344,9 @@
 //CONTACT MODAL
 
 .modal {
+  .mdi {
+    margin-right: 12px;
+  }
   ul li a i:hover {
     color: #DB649C !important;
   }
@@ -364,7 +370,4 @@
     }
 
   }
-}
-.mdi {
-  margin-right: 12px;
 }

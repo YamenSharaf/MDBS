@@ -22548,6 +22548,8 @@ ul.instagram-photos li {
   background-color: #403049 !important;
   color: #EFF0F3 !important;
   font-family: 'Raleway', sans-serif; }
+  .section-d .mdi {
+    margin-right: 12px; }
   .section-d h2 {
     padding-bottom: 20px;
     color: #EFF0F3 !important;
@@ -22604,6 +22606,8 @@ ul.instagram-photos li {
     .footer a:hover {
       color: #DB649C !important; }
 
+.modal .mdi {
+  margin-right: 12px; }
 .modal ul li a i:hover {
   color: #DB649C !important; }
 .modal .modal-dialog {
@@ -22617,8 +22621,5 @@ ul.instagram-photos li {
       font-family: 'Oswald', sans-serif !important; }
     .modal .modal-dialog .modal-content .modal-body {
       background-color: #EFF0F3 !important; }
-
-.mdi {
-  margin-right: 12px; }
 
 /*# sourceMappingURL=app.css.map */
