@@ -22495,19 +22495,6 @@ ul.instagram-photos li {
   font-size: 26px;
   margin-right: 8px; }
 
-.about-social {
-  margin: 25px 0 0; }
-
-.about-social ul li {
-  display: inline-block;
-  margin-right: 24px; }
-
-.about-social ul li a i {
-  font-size: 24px; }
-
-.about-social ul li a i:hover {
-  color: #EFF0F3; }
-
 .section-c {
   display: block;
   margin-left: auto;
@@ -22592,6 +22579,11 @@ ul.instagram-photos li {
   color: #EFF0F3 !important;
   font-family: 'Oswald', sans-serif !important;
   letter-spacing: 3px; }
+  .footer .about-social ul li {
+    display: inline-block;
+    margin-right: 24px; }
+  .footer .about-social ul li a i {
+    font-size: 24px; }
   .footer .footer-content {
     margin-top: 15px; }
   .footer a {
@@ -22599,6 +22591,11 @@ ul.instagram-photos li {
     .footer a:hover {
       color: #DB649C !important; }
 
+.modal .about-social ul li {
+  display: inline-block;
+  margin-right: 24px; }
+.modal .about-social ul li a i {
+  font-size: 24px; }
 .modal .mdi {
   margin-right: 12px; }
 .modal ul li a i:hover {

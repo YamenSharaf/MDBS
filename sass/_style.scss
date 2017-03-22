@@ -190,22 +190,6 @@
     margin-right: 8px;
 }
 
-.about-social {
-  margin: 25px 0 0;
-}
-
-.about-social ul li {
-  display: inline-block;
-  margin-right: 24px;
-}
-
-.about-social ul li a i{
-   font-size: 24px;
-}
-
-.about-social ul li a i:hover {
-  color: #EFF0F3;
-}
 
 //SECTION C
 
@@ -328,6 +312,16 @@
   color: #EFF0F3 !important;
   font-family: 'Oswald', sans-serif !important;
   letter-spacing: 3px;
+
+  .about-social ul li {
+    display: inline-block;
+    margin-right: 24px;
+  }
+
+  .about-social ul li a i{
+     font-size: 24px;
+  }
+
   .footer-content {
     margin-top: 15px;
   }
@@ -342,6 +336,15 @@
 //CONTACT MODAL
 
 .modal {
+  .about-social ul li {
+    display: inline-block;
+    margin-right: 24px;
+  }
+
+  .about-social ul li a i{
+     font-size: 24px;
+  }
+
   .mdi {
     margin-right: 12px;
   }
