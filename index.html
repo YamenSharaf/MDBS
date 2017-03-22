@@ -102,7 +102,7 @@
                         <p>
                             Once a geek, always a geek. Ever since I was 12 I've been fond of everything technology. I've witnessed the web at its worse and vowed to make it better, well not really, but the thought crossed my mind.
                         </p>
-                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#modal-contact"><i class="mdi mdi-briefcase-check"></i><span style="margin-left: 6px">Hire Me</span></button>
+                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#myModal"><i class="mdi mdi-briefcase-check"></i><span style="margin-left: 6px">Hire Me</span></button>
                     </div>
                 </div>
             </div>
@@ -329,7 +329,7 @@
                                 <p style="margin-top: 10px" class="col-md-8">If you're associated with a charitable organization or any non-profit I'll build you a website for free. If you're not you can contact me to talk business or just say hi.</p>
                                 <div class="col-md-1">
                                 </div>
-                                <button type="button" class="col-md-2 btn btn-secondary" data-toggle="modal" data-target="#modal-contact"><i class="mdi mdi-contact-mail"></i>Contact Me
+                                <button type="button" class="col-md-2 btn btn-secondary" data-toggle="modal" data-target="#myModal"><i class="mdi mdi-contact-mail"></i>Contact Me
                                 </button>
 
                             </div>
@@ -412,23 +412,23 @@
             <div class="col-md-3">
 
             </div>
-            <div class="col-md-3 top-buffer bottom-buffer">
+            <div class="col-md-3 top-buffer">
                 <p>© 2017 Copyright: <a href="https://yamensharaf.tk"> yamensharaf.tk </a></p>
             </div>
 
         </div>
 
     </section>
-    <!--/.Footer-->
 
-    <!-- MODAL SECTION -->
-    <div class="modal fade modal-ext" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- CONTACT MODAL -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <!--Content-->
-            <div class="modal-content col-md-10">
+            <div class="modal-content">
                 <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title w-100 text-center" id="myModalLabel"><i class="mdi mdi-contact-mail"></i>Get in touch</h4>
+                    <h4 class="modal-title w-100 text-left" id="myModalLabel"><i class="mdi mdi-contact-mail"></i>Get in touch</h4>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="mdi mdi-close"></i></button>
                 </div>
                 <!--Body-->
                 <div class="modal-body">
@@ -478,118 +478,15 @@
                         <br>
                         <div id="success"></div>
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group col-md-12">
-                                    <button type="submit" class="btn btn-secondary btn-block"> <i class="mdi mdi-send"></i> Send</button>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal"><i class="mdi mdi-close"></i> Close</button>
-                            </div>
 
 
-                        </div>
-                    </form>
-
-                    <div class="call text-center">
-                        <p>Not a fan of email? Call or text me somewhere else...</p>
-                        <div class="row about-social text-center">
-                            <div class="col-md-2">
-
-                            </div>
                             <div class="col-md-8">
 
-
-                                <ul class="text-center">
-                                    <li>
-                                        <a href="tel:+20-111-104-6486"><i class="mdi mdi-phone"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://m.me/YamenSharaf"><i class="mdi mdi-facebook-messenger"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://api.whatsapp.com/send?phone=201111046486&text=Hi%20I'm%20coming%20from%20the%20web"><i class="mdi mdi-whatsapp"></i></a>
-                                    </li>
-                                </ul>
                             </div>
-                            <div class="col-md-2">
-
+                            <div class="col-md-4 form-group">
+                                <button type="submit" class="btn btn-secondary"> <i class="mdi mdi-send"></i> Send</button>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!--Footer-->
-
-        </div>
-
-    </div>
-    <!--/.Content-->
-    <!-- END MODAL SECTION -->
-
-    <!-- TEST TRIGGER  -->
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Launch demo modal
-</button>
-
-
-    <!-- TEST MODAL -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <!--Content-->
-            <div class="modal-content">
-                <!--Header-->
-                <div class="modal-header">
-                    <h4 class="modal-title w-100 text-center" id="myModalLabel"><i class="mdi mdi-contact-mail"></i>Get in touch</h4>
-                </div>
-                <!--Body-->
-                <div class="modal-body">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-account prefix"></i>
-                                    <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                                    <label for="name">Your name</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-mail-ru prefix"></i>
-                                    <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <label for="form2">Your email</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-phone prefix"></i>
-                                    <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <label for="form2">Your phone number</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-message prefix"></i>
-                                    <textarea class="form-control md-textarea" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <label for="form2">What's on your mind?</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
 
                     </form>
                 </div>
@@ -597,11 +494,29 @@
                 <div class="modal-footer">
                     <div class="container col-md-12">
                         <div class="row">
-                            <div class="col-md-6 form-group">
-                                <button type="submit" class="btn btn-secondary btn-block"> <i class="mdi mdi-send"></i> Send</button>
+                            <div class="col-md-7">
+
+
+                                <p>
+                                    Not a fan of email? Surely there are other ways
+                                </p>
                             </div>
-                            <div class="col-md-6">
-                                <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal"><i class="mdi mdi-close"></i> Close</button>
+                            <div class="col-md-5">
+
+
+                                <div class="about-social">
+                                    <ul class="text-right">
+                                        <li>
+                                            <a href="tel:+20-111-104-6486"><i class="mdi mdi-phone"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://m.me/YamenSharaf"><i class="mdi mdi-facebook-messenger"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://api.whatsapp.com/send?phone=201111046486&text=Hi%20I'm%20coming%20from%20the%20web"><i class="mdi mdi-whatsapp"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
 
                         </div>
@@ -612,7 +527,7 @@
             <!--/.Content-->
         </div>
     </div>
-    <!-- END TEST MODAL -->
+    <!-- END MODAL -->
 
 
     <!-- Scripts Import -->
@@ -630,7 +545,6 @@
         smoothScroll.init();
         AOS.init();
     </script>
-
 
 </body>
 

@@ -22360,7 +22360,7 @@ ul.instagram-photos li {
 .navbar .navbar-toggler {
   z-index: 2; }
 .navbar li {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 20px;
   color: #754792;
   margin-left: 20px;
@@ -22400,7 +22400,7 @@ ul.instagram-photos li {
     margin-top: 20%; }
   .showcase h2 {
     color: #DB649C !important;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     margin-top: 20px; }
     .showcase h2::selection {
       background: white; }
@@ -22410,30 +22410,15 @@ ul.instagram-photos li {
   min-height: 65vh;
   background-color: #DB649C !important;
   color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   /* --------------------------------- */
   /* 5. About Me Section Styles
    ----------------------------------- */ }
   .section-b .btn {
-    font-family: 'Oswald', sans-serif !important;
+    font-family: Oswald, sans-serif;
     color: #EFF0F3 !important;
     letter-spacing: 3px;
     line-height: 200%; }
-  .section-b .sliding-middle-out {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 2px; }
-  .section-b .sliding-middle-out:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    background: transparent;
-    transition: width .4s ease, background-color .5s ease; }
-  .section-b .sliding-middle-out:hover:after {
-    width: 100%;
-    background: #DB649C; }
   .section-b .about-inner {
     margin: 60px 0; }
   .section-b .person-about .title {
@@ -22441,7 +22426,7 @@ ul.instagram-photos li {
   .section-b .about-subtitle {
     font-size: 24px;
     font-weight: 600;
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald, sans-serif;
     margin-bottom: 30px;
     text-transform: uppercase;
     color: #2D3047; }
@@ -22460,7 +22445,7 @@ ul.instagram-photos li {
 
 .person-about p {
   color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 35px; }
@@ -22503,7 +22488,7 @@ ul.instagram-photos li {
   min-height: 80vh;
   background-color: #EFF0F3;
   color: #362143 !important;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 16px; }
   .section-c .skills-intro {
     margin-top: 35px;
@@ -22513,7 +22498,7 @@ ul.instagram-photos li {
   .section-c .skill-header h2 {
     padding-bottom: 20px;
     color: #171717 !important;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: Oswald, sans-serif;
     letter-spacing: 4px; }
   .section-c .devfont {
     font-family: 'Raleway', sans-serif !important; }
@@ -22527,19 +22512,19 @@ ul.instagram-photos li {
   min-height: 65vh;
   background-color: #403049 !important;
   color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif; }
+  font-family: Raleway, sans-serif; }
   .section-d .mdi {
     margin-right: 12px; }
   .section-d h2 {
     padding-bottom: 20px;
     color: #EFF0F3 !important;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: Oswald, sans-serif;
     letter-spacing: 4px; }
   .section-d .card .card-block {
     background-color: #EFF0F3 !important; }
   .section-d .card h4 {
     color: #403049 !important;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: Oswald, sans-serif;
     letter-spacing: 1px; }
   .section-d .card p {
     color: #403049 !important; }
@@ -22551,10 +22536,10 @@ ul.instagram-photos li {
   min-height: 55vh;
   background-color: #DB649C !important;
   color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif; }
+  font-family: Raleway, sans-serif; }
   .section-e p {
     color: #EFF0F3 !important;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 35px; }
@@ -22563,13 +22548,13 @@ ul.instagram-photos li {
   .section-e h2 {
     padding-bottom: 20px;
     color: #EFF0F3 !important;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: Oswald, sans-serif;
     letter-spacing: 4px; }
   .section-e .card .card-block {
     background-color: #EFF0F3 !important; }
   .section-e .card h5 {
     color: #403049 !important;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: Oswald, sans-serif;
     letter-spacing: 1px; }
 
 .footer {
@@ -22577,7 +22562,7 @@ ul.instagram-photos li {
   min-height: 6vh;
   background-color: #362143 !important;
   color: #EFF0F3 !important;
-  font-family: 'Oswald', sans-serif !important;
+  font-family: Oswald, sans-serif;
   letter-spacing: 3px; }
   .footer .about-social ul li {
     display: inline-block;
@@ -22591,15 +22576,10 @@ ul.instagram-photos li {
     .footer a:hover {
       color: #DB649C !important; }
 
-.modal .about-social ul li {
-  display: inline-block;
-  margin-right: 24px; }
-.modal .about-social ul li a i {
-  font-size: 24px; }
 .modal .mdi {
   margin-right: 12px; }
 .modal ul li a i:hover {
-  color: #DB649C !important; }
+  color: #EFF0F3 !important; }
 .modal .modal-dialog {
   width: 100%;
   min-width: 60vh; }
@@ -22608,11 +22588,42 @@ ul.instagram-photos li {
     .modal .modal-dialog .modal-content .modal-header {
       background-color: #DB649C !important;
       color: #EFF0F3 !important;
-      font-family: 'Oswald', sans-serif !important; }
+      font-family: Oswald, sans-serif; }
+      .modal .modal-dialog .modal-content .modal-header .mdi-close {
+        margin-right: 0px !important; }
     .modal .modal-dialog .modal-content .modal-body {
       background-color: #EFF0F3 !important; }
-.modal .modal-footer .form-group {
-  height: 100%;
-  margin-bottom: 0px !important; }
+      .modal .modal-dialog .modal-content .modal-body .form-group {
+        height: 100%;
+        margin-bottom: 10px !important; }
+.modal .modal-footer {
+  font-family: Oswald, sans-serif;
+  font-size: 18px; }
+  .modal .modal-footer .about-social ul li {
+    display: inline-block;
+    margin-right: 20px; }
+  .modal .modal-footer .about-social ul li a i {
+    font-size: 24px; }
+
+@media (max-width: 767px) {
+  #content .modal.fade.in {
+    top: 5%; } }
+.sliding-middle-out {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px; }
+
+.sliding-middle-out:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width .4s ease, background-color .5s ease; }
+
+.sliding-middle-out:hover:after {
+  width: 100%;
+  background: #DB649C !important; }
 
 /*# sourceMappingURL=app.css.map */

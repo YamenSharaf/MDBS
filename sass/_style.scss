@@ -1,16 +1,30 @@
+// MY THEME COLORS
+
+$my-pink:                   #DB649C !default;
+$my-white:                  #EFF0F3 !default;
+$my-navy:                   #362143 !default;
+$my-purple:                 #403049 !default;
+
+// MY FONTS
+
+$title-font:                Oswald, sans-serif !default;
+$sub-font:                  Raleway, sans-serif !default;
+
+
+
 //NAVBAR
 .navbar {
   .navbar-toggler {
     z-index: 2;
   }
   li {
-    font-family: 'Oswald', sans-serif;
+    font-family: $title-font;
     font-size: 20px;
     color: #754792;
     margin-left: 20px;
     letter-spacing: 2px;
     span {
-      color: #EFF0F3 !important;
+      color: $my-white !important;
     }
   }
 }
@@ -37,7 +51,7 @@
       height: 100%;
       display: block;
       position: absolute;
-      background: #DB649C;
+      background: $my-pink;
       opacity: 0.3;
     }
 }
@@ -47,7 +61,7 @@
 
 //SECTION A
 .showcase {
-    background-color: #362143;
+    background-color: $my-navy;
     height: 100%;
     min-height: 85vh;
 
@@ -55,8 +69,8 @@
       margin-top: 20%;
     }
     h2 {
-      color: #DB649C !important;
-      font-family: 'Raleway', sans-serif;
+      color: $my-pink !important;
+      font-family: $sub-font;
       margin-top: 20px;
       &::selection {
         background:  white;
@@ -68,38 +82,19 @@
 .section-b {
   height: 100%;
   min-height: 65vh;
-  background-color: #DB649C !important;
-  color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif;
+  background-color: $my-pink !important;
+  color: $my-white !important;
+  font-family: $sub-font;
   .btn {
-    font-family: 'Oswald', sans-serif !important;
-    color: #EFF0F3 !important;
+    font-family: $title-font;
+    color: $my-white !important;
     letter-spacing: 3px;
     line-height: 200%;
 }
 
 
 
-//Underline middle out
 
-.sliding-middle-out {
-	display: inline-block;
-	position: relative;
-	padding-bottom: 2px;
-}
-.sliding-middle-out:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 2px;
-	width: 0px;
-	background: transparent;
-	transition: width .4s ease, background-color .5s ease;
-}
-.sliding-middle-out:hover:after {
-	width: 100%;
-	background: #DB649C;
-}
 
 /* --------------------------------- */
 /* 5. About Me Section Styles
@@ -116,7 +111,7 @@
 .about-subtitle {
   font-size: 24px;
   font-weight: 600;
-  font-family: 'Oswald', sans-serif;
+  font-family: $title-font;
   margin-bottom: 30px;
   text-transform: uppercase;
   color: #2D3047 ;
@@ -139,30 +134,30 @@
 }
 
 .person-img img {
-    border: 4px solid #362143;
+    border: 4px solid $my-navy;
     width: 100%;
 
 }
 
 .person-about p {
-  color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif;
+  color: $my-white !important;
+  font-family: $sub-font;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 35px;
   &::selection {
-    background: #403049;
+    background: $my-purple;
   }
 }
 
 .person-info h5 {
-  border-bottom: 1px solid #362143;
-  color: #EFF0F3;
+  border-bottom: 1px solid $my-navy;
+  color: $my-white;
   font-size: 16px;
   margin-bottom: 16px;
   padding-bottom: 16px;
   &::selection {
-    background: #403049;
+    background: $my-purple;
   }
 }
 
@@ -199,9 +194,9 @@
   margin-right: auto;
   height: 100%;
   min-height: 80vh;
-  background-color: #EFF0F3;
-  color: #362143 !important;
-  font-family: 'Raleway', sans-serif;
+  background-color: $my-white;
+  color: $my-navy !important;
+  font-family: $sub-font;
   font-size: 16px;
   .skills-intro {
     margin-top: 35px;
@@ -215,7 +210,7 @@
     h2 {
       padding-bottom: 20px;
       color: #171717 !important;
-      font-family: 'Oswald', sans-serif !important;
+      font-family: $title-font;
       letter-spacing: 4px;
     }
   }
@@ -225,7 +220,7 @@
   }
 .tool {
   font-size: 300%;
-  color: #403049 !important;
+  color: $my-purple !important;
   letter-spacing: 5px;
 }
 
@@ -234,31 +229,31 @@
 .section-d {
   height: 100%;
   min-height: 65vh;
-  background-color: #403049 !important;
-  color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif;
+  background-color: $my-purple !important;
+  color: $my-white !important;
+  font-family: $sub-font;
   .mdi {
     margin-right: 12px;
   }
   h2 {
     padding-bottom: 20px;
-    color: #EFF0F3 !important;
-    font-family: 'Oswald', sans-serif !important;
+    color: $my-white !important;
+    font-family: $title-font;
     letter-spacing: 4px;
   }
 
   .card {
     .card-block {
-      background-color: #EFF0F3 !important;
+      background-color: $my-white !important;
     }
 
     h4 {
-      color: #403049 !important;
-      font-family: 'Oswald', sans-serif !important;
+      color: $my-purple !important;
+      font-family: $title-font;
       letter-spacing: 1px;
     }
     p {
-      color: #403049 !important;
+      color: $my-purple !important;
       &::selection {
         background: #E48EB7;
       }
@@ -270,35 +265,35 @@
 .section-e {
   height: 100%;
   min-height: 55vh;
-  background-color: #DB649C !important;
-  color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif;
+  background-color: $my-pink !important;
+  color: $my-white !important;
+  font-family: $sub-font;
 
   p {
-    color: #EFF0F3 !important;
-    font-family: 'Raleway', sans-serif;
+    color: $my-white !important;
+    font-family: $sub-font;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 35px;
     &::selection {
-      background: #403049;
+      background: $my-purple;
     }
   }
 
   h2 {
     padding-bottom: 20px;
-    color: #EFF0F3 !important;
-    font-family: 'Oswald', sans-serif !important;
+    color: $my-white !important;
+    font-family: $title-font;
     letter-spacing: 4px;
   }
   .card {
     .card-block {
-      background-color: #EFF0F3 !important;
+      background-color: $my-white !important;
     }
 
     h5 {
-      color: #403049 !important;
-      font-family: 'Oswald', sans-serif !important;
+      color: $my-purple !important;
+      font-family: $title-font;
       letter-spacing: 1px;
     }
   }
@@ -308,9 +303,9 @@
 .footer {
   height: 100%;
   min-height: 6vh;
-  background-color: #362143 !important;
-  color: #EFF0F3 !important;
-  font-family: 'Oswald', sans-serif !important;
+  background-color: $my-navy !important;
+  color: $my-white !important;
+  font-family: $title-font;
   letter-spacing: 3px;
 
   .about-social ul li {
@@ -326,9 +321,9 @@
     margin-top: 15px;
   }
   a {
-    color: #EFF0F3 !important;
+    color: $my-white !important;
     &:hover {
-      color: #DB649C !important;
+      color: $my-pink !important;
     }
   }
 }
@@ -336,20 +331,12 @@
 //CONTACT MODAL
 
 .modal {
-  .about-social ul li {
-    display: inline-block;
-    margin-right: 24px;
-  }
-
-  .about-social ul li a i{
-     font-size: 24px;
-  }
 
   .mdi {
     margin-right: 12px;
   }
   ul li a i:hover {
-    color: #DB649C !important;
+    color: $my-white !important;
   }
 
 
@@ -358,24 +345,63 @@
     width: 100%;
     min-width: 60vh;
     .modal-content {
-      background-color: #DB649C !important;
+      background-color: $my-pink !important;
       .modal-header {
-        background-color: #DB649C !important;
-        color: #EFF0F3 !important;
-        font-family: 'Oswald', sans-serif !important;
+        .mdi-close {
+          margin-right: 0px !important;
+        }
+        background-color: $my-pink !important;
+        color: $my-white !important;
+        font-family: $title-font;
       }
       .modal-body {
-        background-color: #EFF0F3 !important;
+        background-color: $my-white !important;
+        .form-group {
+          height: 100%;
+          margin-bottom: 10px !important;
+        }
       }
 
     }
 
   }
   .modal-footer {
-    .form-group {
-      height: 100%;
-      margin-bottom: 0px !important;
+    font-family: $title-font;
+    font-size: 18px;
+
+    .about-social ul li {
+      display: inline-block;
+      margin-right: 20px;
     }
 
+    .about-social ul li a i{
+       font-size: 24px;
+    }
   }
+}
+
+@media (max-width: 767px) {
+  #content .modal.fade.in {
+    top: 5%;
+  }
+}
+//Underline middle out
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 2px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .4s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: $my-pink !important;
 }
