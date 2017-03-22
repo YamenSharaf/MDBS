@@ -71,6 +71,11 @@
   background-color: #DB649C !important;
   color: #EFF0F3 !important;
   font-family: 'Raleway', sans-serif;
+  .btn {
+    font-family: 'Oswald', sans-serif !important;
+    color: #EFF0F3 !important;
+    letter-spacing: 3px;
+    line-height: 200%;
 }
 
 
@@ -123,15 +128,8 @@
 
 }
 
-.person-about {
 
-  .btn {
-    font-family: 'Oswald', sans-serif !important;
-    color: #EFF0F3 !important;
-    letter-spacing: 3px;
-    line-height: 200%;
 
-  }
 }
 
 .person-about .subtitle {

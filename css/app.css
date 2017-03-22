@@ -22410,51 +22410,44 @@ ul.instagram-photos li {
   min-height: 65vh;
   background-color: #DB649C !important;
   color: #EFF0F3 !important;
-  font-family: 'Raleway', sans-serif; }
-
-.sliding-middle-out {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 2px; }
-
-.sliding-middle-out:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 2px;
-  width: 0px;
-  background: transparent;
-  transition: width .4s ease, background-color .5s ease; }
-
-.sliding-middle-out:hover:after {
-  width: 100%;
-  background: #DB649C; }
-
-/* --------------------------------- */
-/* 5. About Me Section Styles
- ----------------------------------- */
-.about-inner {
-  margin: 60px 0; }
-
-.person-about .title {
-  margin-bottom: 15px; }
-
-.about-subtitle {
-  font-size: 24px;
-  font-weight: 600;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  color: #2D3047; }
-  .about-subtitle span {
-    font-weight: bold;
-    margin-right: 10px; }
-
-.person-about .btn {
-  font-family: 'Oswald', sans-serif !important;
-  color: #EFF0F3 !important;
-  letter-spacing: 3px;
-  line-height: 200%; }
+  font-family: 'Raleway', sans-serif;
+  /* --------------------------------- */
+  /* 5. About Me Section Styles
+   ----------------------------------- */ }
+  .section-b .btn {
+    font-family: 'Oswald', sans-serif !important;
+    color: #EFF0F3 !important;
+    letter-spacing: 3px;
+    line-height: 200%; }
+  .section-b .sliding-middle-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px; }
+  .section-b .sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .4s ease, background-color .5s ease; }
+  .section-b .sliding-middle-out:hover:after {
+    width: 100%;
+    background: #DB649C; }
+  .section-b .about-inner {
+    margin: 60px 0; }
+  .section-b .person-about .title {
+    margin-bottom: 15px; }
+  .section-b .about-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #2D3047; }
+    .section-b .about-subtitle span {
+      font-weight: bold;
+      margin-right: 10px; }
 
 .person-about .subtitle {
   font-weight: 100;
