@@ -22362,7 +22362,6 @@ ul.instagram-photos li {
 .navbar li {
   font-family: Oswald, sans-serif;
   font-size: 20px;
-  color: #754792;
   margin-left: 20px;
   letter-spacing: 2px; }
   .navbar li span {
@@ -22410,10 +22409,7 @@ ul.instagram-photos li {
   min-height: 65vh;
   background-color: #DB649C !important;
   color: #EFF0F3 !important;
-  font-family: Raleway, sans-serif;
-  /* --------------------------------- */
-  /* 5. About Me Section Styles
-   ----------------------------------- */ }
+  font-family: Raleway, sans-serif; }
   .section-b .btn {
     font-family: Oswald, sans-serif;
     color: #EFF0F3 !important;
@@ -22466,7 +22462,7 @@ ul.instagram-photos li {
   min-width: 70px; }
 
 .person-about > a.btn-large {
-  background-color: #fff; }
+  background-color: #EFF0F3; }
 
 .person-about > a.btn-large {
   font-size: 14px; }
