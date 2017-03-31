@@ -16,7 +16,12 @@ $arabic:                    Amiri, serif !default;
 
 
 //NAVBAR
+.navbar-dark {
+  box-shadow: none !important;
+}
 .navbar {
+
+  z-index: 0;
   .navbar-toggler {
     z-index: 2;
   }
@@ -59,10 +64,20 @@ $arabic:                    Amiri, serif !default;
 }
 
 //SECTION A
+
 .showcase {
-    background-color: $my-navy;
-    height: 100%;
-    min-height: 85vh;
+  z-index: -2;
+  background-color: $my-navy;
+  height: 100%;
+  min-height: 85vh;
+#canvas, #text {
+  max-width: 100% !important;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
 
     img {
       margin-top: 20%;

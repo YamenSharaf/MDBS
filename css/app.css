@@ -22357,15 +22357,20 @@ ul.instagram-photos li {
   filter: FlipV;
   -ms-filter: "FlipV"; }
 
-.navbar .navbar-toggler {
-  z-index: 2; }
-.navbar li {
-  font-family: Oswald, sans-serif;
-  font-size: 20px;
-  margin-left: 20px;
-  letter-spacing: 2px; }
-  .navbar li span {
-    color: #EFF0F3 !important; }
+.navbar-dark {
+  box-shadow: none !important; }
+
+.navbar {
+  z-index: 0; }
+  .navbar .navbar-toggler {
+    z-index: 2; }
+  .navbar li {
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px; }
+    .navbar li span {
+      color: #EFF0F3 !important; }
 
 .nav-content {
   margin-left: 30px; }
@@ -22392,9 +22397,17 @@ ul.instagram-photos li {
     opacity: 0.3; }
 
 .showcase {
+  z-index: -2;
   background-color: #362143;
   height: 100%;
   min-height: 85vh; }
+  .showcase #canvas, .showcase #text {
+    max-width: 100% !important;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1; }
   .showcase img {
     margin-top: 20%; }
   .showcase h2 {
@@ -22621,5 +22634,3 @@ ul.instagram-photos li {
 .sliding-middle-out:hover:after {
   width: 100%;
   background: #DB649C !important; }
-
-/*# sourceMappingURL=app.css.map */
