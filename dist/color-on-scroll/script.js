@@ -6,8 +6,6 @@ $('head').append( '<meta name="theme-color" content="#DB649C">' );
 }
 });
 
-
-
 var firstWaypoint = new Waypoint({
 element: document.getElementById('about-me'),
 handler: function() {
@@ -25,8 +23,6 @@ $('head').append( '<meta name="theme-color" content="#362143">' );
 }
 });
 
-
-
 var thirdWaypoint = new Waypoint({
 element: document.getElementById('portfolio'),
 handler: function() {
@@ -42,9 +38,3 @@ $('meta[name=theme-color]').remove();
 $('head').append( '<meta name="theme-color" content="#403049">' );
 }
 });
-
-
-/* {
-$('meta[name=theme-color]').remove();
-$('head').append( '<meta name="theme-color" content="#8BC34A">' );
-}*/
