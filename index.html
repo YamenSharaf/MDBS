@@ -112,7 +112,7 @@
     </section>
 
     <!-- SECTION C: SKILLLS -->
-    <section id="skills" class="section-c col-md-12">
+    <section id="skills" class="waypoint section-c col-md-12">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 skill-bars">
@@ -540,12 +540,23 @@
     <script src="dist/skill-bar/lib/jquery.appear/jquery.appear.js"></script>
     <script src="dist/skill-bar/js/custom.js"></script>
     <script src="dist/smoothscroll/smooth-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="dist/contactme/jqBootstrapValidation.js"></script>
     <script src="dist/contactme/contact_me.js"></script>
     <script>
         smoothScroll.init();
         AOS.init();
+    </script>
+    <script>
+    var waypoint = new Waypoint({
+  element: document.getElementById('skills'),
+  handler: function() {
+    $('meta[name=theme-color]').remove();
+    $('head').append( '<meta name="theme-color" content="#8BC34A">' );
+}
+})
+
     </script>
 
 </body>
