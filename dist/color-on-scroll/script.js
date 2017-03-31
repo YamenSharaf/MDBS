@@ -10,7 +10,7 @@ var firstWaypoint = new Waypoint({
 element: document.getElementById('about-me'),
 handler: function() {
 $('meta[name=theme-color]').remove();
-$('head').append( '<meta name="theme-color" content="#403049">' );
+$('head').append( '<meta name="theme-color" content="#ABAEBF">' );
 }
 });
 
