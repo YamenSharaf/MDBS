@@ -56,7 +56,7 @@
     <!--END NAVBAR -->
 
     <!-- SECTION A: LETTERHEAD -->
-    <section id="letterhead" class="container col-md-12">
+    <section id="letterhead" class="container col-md-12 waypoint">
         <div class="row">
 
 
@@ -76,7 +76,7 @@
     <!--END SECTION A -->
 
     <!-- SECTION B: ABOUT ME -->
-    <section id="about-me" class="section-b col-md-12">
+    <section id="about-me" class="section-b col-md-12 waypoint">
         <div class="container">
             <div class= "row">
                 <div class="col-md-4 top-buffer">
@@ -242,7 +242,7 @@
     <!-- END SECTION C -->
 
     <!-- SECTION D -->
-    <section id="portfolio" class="section-d col-md-12">
+    <section id="portfolio" class="section-d col-md-12 waypoint">
         <div class="container">
             <div class="row bottom-buffer">
                 <div class="top-buffer text-center skill-header col-md-12">
@@ -344,7 +344,7 @@
     <!-- END SECTION D -->
 
     <!--SECTION E: Blog-->
-    <section id="blog" class="section-e col-md-12">
+    <section id="blog" class="section-e col-md-12 waypoint">
         <div class="container">
             <div class="row">
                 <div class="top-buffer text-center skill-header col-md-12">
@@ -543,20 +543,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="dist/contactme/jqBootstrapValidation.js"></script>
+    <script src="dist/color-on-scroll/script.js"></script>
     <script src="dist/contactme/contact_me.js"></script>
     <script>
         smoothScroll.init();
         AOS.init();
-    </script>
-    <script>
-    var waypoint = new Waypoint({
-  element: document.getElementById('skills'),
-  handler: function() {
-    $('meta[name=theme-color]').remove();
-    $('head').append( '<meta name="theme-color" content="#8BC34A">' );
-}
-})
-
     </script>
 
 </body>
