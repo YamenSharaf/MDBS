@@ -1,0 +1,25 @@
+{
+  "name": "yamen-sharaf-productions",
+  "version": "1.5.0",
+  "description": "My own portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YamenSharaf/YS.git"
+  },
+  "keywords": [
+    "portfolio",
+    "yamen",
+    "yamen",
+    "sharaf"
+  ],
+  "author": "Yamen Sharaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YamenSharaf/YS/issues"
+  },
+  "homepage": "https://github.com/YamenSharaf/YS#readme"
+}
