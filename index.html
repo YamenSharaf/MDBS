@@ -2,636 +2,689 @@
 <html lang="en">
 
 <head>
-    <!-- META STUFF -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Web design made slick">
-    <!-- Android status bar color -->
-    <meta name="theme-color" content="#DB649C" />
-    <title>Yamen Sharaf Productions</title>
-    <link rel="shortcut icon" href="img/favicon-32x32.png">
-    <!-- favicon -->
-    <!-- IMPORT FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Amiri|Lato|Oswald|Raleway" rel="stylesheet">
-    <!-- IMPORT SASS -->
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
-    <link href="css/devicons.min.css" rel="stylesheet">
-    <!-- IMPORT PLUGINS-->
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="dist/skill-bar/css/style.css">
-    <link rel="stylesheet" href="dist/glyph-snip/css/snip.css">
+  <!-- META STUFF -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web design made slick">
+  <!-- Android status bar color -->
+  <meta name="theme-color" content="#DB649C" />
+  <title>Yamen Sharaf Productions</title>
+  <link rel="shortcut icon" href="img/favicon-32x32.png">
+  <!-- favicon -->
+  <!-- IMPORT FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Amiri|Lato|Oswald|Raleway" rel="stylesheet">
+  <!-- IMPORT SASS -->
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.8.36/css/materialdesignicons.min.css">
+  <link href="css/devicons.min.css" rel="stylesheet">
+  <!-- IMPORT PLUGINS-->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="dist/skill-bar/css/style.css">
+  <link rel="stylesheet" href="dist/glyph-snip/css/snip.css">
 
 </head>
 
 <body>
-    <!--Start of Body-->
-    <!--NAVBAR-->
-    <nav class="navbar navbar-toggleable-sm navbar-dark bg-primary">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+  <!--Start of Body-->
+  <!--NAVBAR-->
+  <nav class="navbar navbar-toggleable-sm navbar-dark bg-primary">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-            <!-- NAV ITEMS -->
-            <div class="collapse navbar-collapse" id="navbarNav1">
-                <ul class="navbar-nav nav-justified mr-auto">
-                    <li class="nav-item">
-                        <a data-scroll href="#about-me" class="nav-link"><span class="sliding-middle-out">About</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-scroll href="#skills" class="nav-link"><span class="sliding-middle-out">Skills</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-scroll href="#portfolio" class="nav-link"><span class="sliding-middle-out">Portfolio</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#blog" class="nav-link"><span class="sliding-middle-out">Blog</span></a>
-                    </li>
-                </ul>
-            </div>
+      <!-- NAV ITEMS -->
+      <div class="collapse navbar-collapse" id="navbarNav1">
+        <ul class="navbar-nav nav-justified mr-auto">
+          <li class="nav-item">
+            <a data-scroll href="#about-me" class="nav-link"><span class="sliding-middle-out">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a data-scroll href="#skills" class="nav-link"><span class="sliding-middle-out">Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a data-scroll href="#portfolio" class="nav-link"><span class="sliding-middle-out">Portfolio</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link"><span class="sliding-middle-out">Blog</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--END NAVBAR -->
+
+  <!-- SECTION A: LETTERHEAD -->
+
+  <section id="letterhead" class="container showcase col-md-12 waypoint">
+    <div class="row">
+      <canvas id="canvas"></canvas>
+      <div class="container-fluid bottom-buffer col-md-12">
+        <div class="row">
+          <div class="span6" style="float: none; margin: 0 auto;">
+
+            <img src="img/logo-ani.gif" class="img-fluid" alt="Logo - Animated">
+          </div>
         </div>
-    </nav>
-    <!--END NAVBAR -->
+        <div class="container text-center col-md-6 #canvas-overlay">
+          <h2>Hi! My name is Yamen and I specialize in building modern, crisp and clean websites </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END SECTION A -->
 
-    <!-- SECTION A: LETTERHEAD -->
-
-    <section id="letterhead" class="container showcase col-md-12 waypoint">
+  <!-- SECTION B: ABOUT ME -->
+  <section id="about-me" class="section-b col-md-12 waypoint">
+    <div class="container">
       <div class="row">
-        <canvas id="canvas"></canvas>
-            <div class="container-fluid bottom-buffer col-md-12">
-                <div class="row">
-                    <div class="span6" style="float: none; margin: 0 auto;">
-
-                        <img src="img/logo-ani.gif" class="img-fluid" alt="Logo - Animated">
-                    </div>
-                </div>
-                <div class="container text-center col-md-6 #canvas-overlay">
-                    <h2>Hi! My name is Yamen and I specialize in building modern, crisp and clean websites </h2>
-                </div>
-            </div>
+        <div class="col-md-4 top-buffer">
+          <div data-aos="zoom-in" class="person-info">
+            <h3 class="text-center about-subtitle">Personal Information</h3>
+            <h5><span class="highlight">Name:</span> Yamen Sharaf</h5>
+            <h5><span>Age:</span> 27 Years</h5>
+            <h5><span>Phone:</span> +20-1111-046486</h5>
+            <h5><span>Email:</span> yamensharaf@gmail.com</h5>
+            <h5><span>Address:</span> Cairo, Egypt</h5>
+          </div>
+          <a href="files/Resume.pdf" class="btn btn-block btn-secondary"><i class="mdi mdi-file-document"></i><span style="margin-left: 6px">Download  Résumé</span></a>
         </div>
-    </section>
-    <!--END SECTION A -->
-
-    <!-- SECTION B: ABOUT ME -->
-    <section id="about-me" class="section-b col-md-12 waypoint">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 top-buffer">
-                    <div data-aos="zoom-in" class="person-info">
-                        <h3 class="text-center about-subtitle">Personal Information</h3>
-                        <h5><span class="highlight">Name:</span> Yamen Sharaf</h5>
-                        <h5><span>Age:</span> 27 Years</h5>
-                        <h5><span>Phone:</span> +20-1111-046486</h5>
-                        <h5><span>Email:</span> yamensharaf@gmail.com</h5>
-                        <h5><span>Address:</span> Cairo, Egypt</h5>
-                    </div>
-                    <a href="files/Resume.pdf" class="btn btn-block btn-secondary"><i class="mdi mdi-file-document"></i><span style="margin-left: 6px">Download  Résumé</span></a>
-                </div>
-                <div class="col-md-4 top-buffer">
-                    <div data-aos="fade-up" class="person-img mask waves-effect waves-light img-responsive color-overlay wow fadeIn">
-                        <img class="z-depth-1 img-responsive" src="img/yamen.jpg" alt="Yamen's picture">
-                    </div>
-                </div>
-                <div class="col-md-4 top-buffer bottom-buffer">
-                    <div data-aos="zoom-in" class="person-about">
-                        <h3 class="about-subtitle text-center">My Story</h3>
-                        <p class="subtext">A communication engineer gone wild. A coder in the making.</p>
-                        <p>
-                            Once a geek, always a geek. Ever since I was 12 I've been fond of everything technology. I've witnessed the web at its worse and vowed to make it better, well not really, but the thought crossed my mind.
-                        </p>
-                        <button type="button" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#myModal"><i class="mdi mdi-briefcase-check"></i><span style="margin-left: 6px">Hire Me</span></button>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-4 top-buffer">
+          <div data-aos="fade-up" class="person-img mask waves-effect waves-light img-responsive color-overlay wow fadeIn">
+            <img class="z-depth-1 img-responsive" src="img/yamen.jpg" alt="Yamen's picture">
+          </div>
         </div>
-    </section>
-
-    <!-- SECTION C: SKILLLS -->
-    <section id="skills" class="waypoint section-c col-md-12">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 skill-bars">
-                    <div class="wraper">
-                        <div class="skillst6">
-                            <div class="text-center skill-header">
-                                <h2>&#123; Design Skills 	&#125;</h2>
-                            </div>
-                            <div class="skillbar" data-percent="95%">
-                                <div class="count-bar color-3">
-                                    <div class="title"> <span class="devicons devicons-html5"></span><span class="devfont"> HTML 5</span></div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="85%">
-                                <div class="count-bar color-3">
-                                    <div class="title"> <span class="devicons devicons-css3"><span class="devfont"> CSS 3</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="90%">
-                                <div class="count-bar color-3">
-                                    <div class="title"> <span class="devicons devicons-bootstrap"><span class="devfont"> Bootstrap 4</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="95%">
-                                <div class="count-bar color-3">
-                                    <div class="title"> <span class="devicons devicons-sass"><span class="devfont"> SASS 3</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="70%">
-                                <div class="count-bar color-3">
-                                    <div class="title"> <span class="mdi mdi-apps"><span class="devfont"> UI/ UX</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 skill-bars bottom-buffer">
-                    <div class="wraper">
-                        <div class="skillst6">
-                            <div class="text-center skill-header">
-                                <h2>&#91; Coding Skills &#93;</h2>
-                            </div>
-                            <div class="skillbar" data-percent="70%">
-                                <div class="count-bar color-2">
-                                    <div class="title"> <span class="devicons devicons-javascript_badge"> <span class="devfont">JavaScript</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="80%">
-                                <div class="count-bar color-2">
-                                    <div class="title"> <span class="devicons devicons-jquery"> <span class="devfont">jQuery 3</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="70%">
-                                <div class="count-bar color-2">
-                                    <div class="title"> <span class="devicons devicons-wordpress"><span class="devfont"> WordPress 4</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="60%">
-                                <div class="count-bar color-2">
-                                    <div class="title"> <span class="devicons devicons-php"><span class="devfont"> PHP 7</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                            <div class="skillbar" data-percent="70%">
-                                <div class="count-bar color-2">
-                                    <div class="title"> <span class="devicons devicons-chrome"><span class="devfont"> SEO</span></span>
-                                    </div>
-                                    <div class="count"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row bottom-buffer">
-                <div class="text-center skill-header col-md-12">
-                    <h2> &#60;Development Tools&#62;</h2>
-                </div>
-                <div class="container dev-tools">
-                    <div class="row text-center">
-                        <div class="col-sm-6 col-md-4 col-lg-4 tool">
-                            <i class="devicons devicons-photoshop"></i>
-                            <i class="mdi mdi-office"></i>
-                            <i class="devicons devicons-atom"></i>
-                            <i class="devicons devicons-git_branch"></i>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 tool">
-                            <i class="devicons devicons-mysql"></i>
-                            <i class="devicons devicons-brackets"></i>
-                            <i class="devicons devicons-dreamweaver"></i>
-                            <i class="devicons devicons-google_drive"></i>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 tool">
-                            <i class="devicons devicons-bower"></i>
-                            <i class="devicons devicons-github_badge"></i>
-                            <i class="devicons devicons-npm"></i>
-                            <i class="devicons devicons-illustrator"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-4 top-buffer bottom-buffer">
+          <div data-aos="zoom-in" class="person-about">
+            <h3 class="about-subtitle text-center">My Story</h3>
+            <p class="subtext">A communication engineer gone wild. A coder in the making.</p>
+            <p>
+              Once a geek, always a geek. Ever since I was 12 I've been fond of everything technology. I've witnessed the web at its worse and vowed to make it better, well not really, but the thought crossed my mind.
+            </p>
+            <button type="button" class="btn btn-block btn-secondary" data-toggle="modal" data-target="#myModal"><i class="mdi mdi-briefcase-check"></i><span style="margin-left: 6px">Hire Me</span></button>
+          </div>
         </div>
-    </section>
-    <!-- END SECTION C -->
-    <!-- SECTION D -->
-    <section id="portfolio" class="section-d col-md-12 waypoint">
-        <div class="container">
-            <div class="row bottom-buffer">
-                <div class="top-buffer text-center skill-header col-md-12">
-                    <h2> Portfolio </h2>
-                </div>
-                <div class="row bottom-buffer">
-                    <div class="col-md-4 top-buffer">
-                        <!--Card-->
-                        <div data-aos="fade-up" class="card">
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="img/logo-card.jpg" class="img-fluid" alt="This website">
-                                <a href="#">
-                                    <div class="mask waves-effect waves-light"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-                            <!--Card content-->
-                            <div class="card-block">
-                                <!--Title-->
-                                <h4 class="card-title">This very website</h4>
-                                <!--Text-->
-                                <p class="card-text">Made from scratch using Bootstrap, Sass and some old fashioned CSS. Meant to establish my very own brand. Your website can be next and I'll even do free work for non-profits and charities. </p>
-                                <a href="#" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>You're here</a>
-                            </div>
-                            <!--/.Card content-->
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <div class="col-md-4 top-buffer">
-                        <!--Card-->
-                        <div data-aos="fade-up" class="card">
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="img/md-card.jpg" class="img-fluid" alt="Mediocre Designs">
-                                <a href="http://ysharaf.tk/">
-                                    <div class="mask waves-effect waves-light"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-                            <!--Card content-->
-                            <div class="card-block">
-                                <!--Title-->
-                                <h4 class="card-title">Mediocre Designs</h4>
-                                <!--Text-->
-                                <p class="card-text">My first Bootstrap project built upon a template. Was meant to be a landing page, but since then I've opted to making my own themes from scratch, and it's been quite fun.</p>
-                                <a href="http://ysharaf.tk/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>Take a look</a>
-                            </div>
-                            <!--/.Card content-->
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                    <div class="col-md-4 top-buffer">
-                        <!--Card-->
-                        <div data-aos="fade-up" class="card">
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="img/min-buzz.jpg" class="img-fluid" alt="Minimum Buzz WordPress theme">
-                                <a href="https://yamensharaf.github.io/Minimal-Buzz-minimal-business-theme/">
-                                    <div class="mask waves-effect waves-light"></div>
-                                </a>
-                            </div>
-                            <!--/.Card image-->
-                            <!--Card content-->
-                            <div class="card-block">
-                                <!--Title-->
-                                <h4 class="card-title">Minimal Buzz</h4>
-                                <!--Text-->
-                                <p class="card-text">A bootstrap template/ theme I made in my spare time using material design elements, geared towards business users. Fairly minimal and free for anyone to use and modify as they see fit.</p>
-                                <a href="https://github.com/YamenSharaf/Minimal-Buzz-minimal-business-theme/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>View Repository</a>
-                            </div>
-                            <!--/.Card content-->
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                </div>
-                <div class="top-buffer skill-header col-md-12">
-                    <div data-aos="fade-up" class="card z-depth-2">
-                        <div class="card-block">
-                            <div class="row">
-                                <p style="margin-top: 10px" class="col-md-8">If you're associated with a charitable organization or any non-profit I'll build you a website for free. If you're not you can contact me to talk business or just say hi.</p>
-                                <div class="col-md-1">
-                                </div>
-                                <button type="button" class="col-md-2 btn btn-secondary" data-toggle="modal" data-target="#myModal"><i class="mdi mdi-contact-mail"></i>Contact Me
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END SECTION D -->
+      </div>
+    </div>
+  </section>
 
-    <!--SECTION E: Blog-->
-    <section id="blog" class="section-e col-md-12 waypoint">
-        <div class="container">
-            <div class="row">
-                <div class="top-buffer text-center skill-header col-md-12">
-                    <h2> Blog Incoming .... </h2>
+  <!-- SECTION C: SKILLLS -->
+  <section id="skills" class="waypoint section-c col-md-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 skill-bars">
+          <div class="wraper">
+            <div class="skillst6">
+              <div class="text-center skill-header">
+                <h2>&#123; Design Skills 	&#125;</h2>
+              </div>
+              <div class="skillbar" data-percent="95%">
+                <div class="count-bar color-3">
+                  <div class="title"> <span class="devicons devicons-html5"></span><span class="devfont"> HTML 5</span></div>
+                  <div class="count"></div>
                 </div>
-                <div data-aos="zoom-in" class="col-md-7 blog-talk">
-                    <p style="margin-top: 35px">I have a lot of things to talk about. I would like to have a place to tell my stories about web development. where I'm coming from and where I wanna go. And I wanna share cool resources and hope to help someone along their journey.
-                    </p>
-                    <p>
-                        I'm currently working on building a blog based on WordPress to give a back-end to my front-end home page and this space will be dedicated to showing the latest posts and news and other announcements.
-                    </p>
+              </div>
+              <div class="skillbar" data-percent="85%">
+                <div class="count-bar color-3">
+                  <div class="title"> <span class="devicons devicons-css3"><span class="devfont"> CSS 3</span></span>
+                  </div>
+                  <div class="count"></div>
                 </div>
+              </div>
+              <div class="skillbar" data-percent="90%">
+                <div class="count-bar color-3">
+                  <div class="title"> <span class="devicons devicons-bootstrap"><span class="devfont"> Bootstrap 4</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+              <div class="skillbar" data-percent="95%">
+                <div class="count-bar color-3">
+                  <div class="title"> <span class="devicons devicons-sass"><span class="devfont"> SASS 3</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+              <div class="skillbar" data-percent="70%">
+                <div class="count-bar color-3">
+                  <div class="title"> <span class="mdi mdi-apps"><span class="devfont"> UI/ UX</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 skill-bars bottom-buffer">
+          <div class="wraper">
+            <div class="skillst6">
+              <div class="text-center skill-header">
+                <h2>&#91; Coding Skills &#93;</h2>
+              </div>
+              <div class="skillbar" data-percent="70%">
+                <div class="count-bar color-2">
+                  <div class="title"> <span class="devicons devicons-javascript_badge"> <span class="devfont">JavaScript</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+              <div class="skillbar" data-percent="80%">
+                <div class="count-bar color-2">
+                  <div class="title"> <span class="devicons devicons-jquery"> <span class="devfont">jQuery 3</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+              <div class="skillbar" data-percent="70%">
+                <div class="count-bar color-2">
+                  <div class="title"> <span class="devicons devicons-wordpress"><span class="devfont"> WordPress 4</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+              <div class="skillbar" data-percent="60%">
+                <div class="count-bar color-2">
+                  <div class="title"> <span class="devicons devicons-php"><span class="devfont"> PHP 7</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+              <div class="skillbar" data-percent="70%">
+                <div class="count-bar color-2">
+                  <div class="title"> <span class="devicons devicons-chrome"><span class="devfont"> SEO</span></span>
+                  </div>
+                  <div class="count"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bottom-buffer">
+        <div class="text-center skill-header col-md-12">
+          <h2> &#60;Development Tools&#62;</h2>
+        </div>
+        <div class="container dev-tools">
+          <div class="row text-center">
+            <div class="col-sm-6 col-md-4 col-lg-4 tool">
+              <i class="devicons devicons-photoshop"></i>
+              <i class="mdi mdi-office"></i>
+              <i class="devicons devicons-atom"></i>
+              <i class="devicons devicons-git_branch"></i>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 tool">
+              <i class="devicons devicons-mysql"></i>
+              <i class="devicons devicons-brackets"></i>
+              <i class="devicons devicons-dreamweaver"></i>
+              <i class="devicons devicons-google_drive"></i>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 tool">
+              <i class="devicons devicons-bower"></i>
+              <i class="devicons devicons-github_badge"></i>
+              <i class="devicons devicons-npm"></i>
+              <i class="devicons devicons-illustrator"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SECTION C -->
+  <!-- SECTION D -->
+  <section id="portfolio" class="section-d col-md-12 waypoint">
+    <div class="container">
+      <div class="row bottom-buffer">
+        <div class="top-buffer text-center skill-header col-md-12">
+          <h2> Portfolio </h2>
+        </div>
+        <div class="row bottom-buffer">
+          <div class="col-md-4 top-buffer">
+            <!--Card-->
+            <div data-aos="fade-up" class="card">
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/logo-card.jpg" class="img-fluid" alt="This website">
+                <a href="#">
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+              <!--Card content-->
+              <div class="card-block">
+                <!--Title-->
+                <h4 class="card-title">This very website</h4>
+                <!--Text-->
+                <p class="card-text">Made from scratch using Bootstrap, Sass and some old fashioned CSS. Meant to establish my very own brand. Your website can be next and I'll even do free work for non-profits and charities. </p>
+                <a href="#" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>You're here</a>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <div class="col-md-4 top-buffer">
+            <!--Card-->
+            <div data-aos="fade-up" class="card">
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/md-card.jpg" class="img-fluid" alt="Mediocre Designs">
+                <a href="http://ysharaf.tk/">
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+              <!--Card content-->
+              <div class="card-block">
+                <!--Title-->
+                <h4 class="card-title">Mediocre Designs</h4>
+                <!--Text-->
+                <p class="card-text">My first Bootstrap project built upon a template. Was meant to be a landing page, but since then I've opted to making my own themes from scratch, and it's been quite fun.</p>
+                <a href="http://ysharaf.tk/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>Take a look</a>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <div class="col-md-4 top-buffer">
+            <!--Card-->
+            <div data-aos="fade-up" class="card">
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/min-buzz.jpg" class="img-fluid" alt="Minimum Buzz WordPress theme">
+                <a href="https://yamensharaf.github.io/Minimal-Buzz-minimal-business-theme/">
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+              <!--Card content-->
+              <div class="card-block">
+                <!--Title-->
+                <h4 class="card-title">Minimal Buzz</h4>
+                <!--Text-->
+                <p class="card-text">A bootstrap template/ theme I made in my spare time using material design elements, geared towards business users. Fairly minimal and free for anyone to use and modify as they see fit.</p>
+                <a href="https://github.com/YamenSharaf/Minimal-Buzz-minimal-business-theme/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>View Repository</a>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <div class="col-md-4 top-buffer">
+            <!--Card-->
+            <div data-aos="fade-up" class="card">
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/it.jpg" class="img-fluid" alt="Minimum Buzz WordPress theme">
+                <a href="https://yamensharaf.github.io/Minimal-Buzz-minimal-business-theme/">
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+              <!--Card content-->
+              <div class="card-block">
+                <!--Title-->
+                <h4 class="card-title">InstaTranslate</h4>
+                <!--Text-->
+                <p class="card-text">A web app to instantly translate to and from 10 different languages using the popular Google and Yandex engine. The app is written from the ground up using pure JavaScript and AJAX techniques.</p>
+                <a href="https://github.com/YamenSharaf/Minimal-Buzz-minimal-business-theme/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>View Repository</a>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <div class="col-md-4 top-buffer">
+            <!--Card-->
+            <div data-aos="fade-up" class="card">
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/np.jpg" class="img-fluid" alt="Minimum Buzz WordPress theme">
+                <a href="https://yamensharaf.github.io/Minimal-Buzz-minimal-business-theme/">
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+              <!--Card content-->
+              <div class="card-block">
+                <!--Title-->
+                <h4 class="card-title">Minimal Buzz</h4>
+                <!--Text-->
+                <p class="card-text">A bootstrap template/ theme I made in my spare time using material design elements, geared towards business users. Fairly minimal and free for anyone to use and modify as they see fit.</p>
+                <a href="https://github.com/YamenSharaf/Minimal-Buzz-minimal-business-theme/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>View Repository</a>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+          <div class="col-md-4 top-buffer">
+            <!--Card-->
+            <div data-aos="fade-up" class="card">
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/mj.jpg" class="img-fluid" alt="Minimum Buzz WordPress theme">
+                <a href="https://yamensharaf.github.io/Minimal-Buzz-minimal-business-theme/">
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+              <!--Card content-->
+              <div class="card-block">
+                <!--Title-->
+                <h4 class="card-title">Minimal Buzz</h4>
+                <!--Text-->
+                <p class="card-text">A bootstrap template/ theme I made in my spare time using material design elements, geared towards business users. Fairly minimal and free for anyone to use and modify as they see fit.</p>
+                <a href="https://github.com/YamenSharaf/Minimal-Buzz-minimal-business-theme/" class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>View Repository</a>
+              </div>
+              <!--/.Card content-->
+            </div>
+            <!--/.Card-->
+          </div>
+        </div>
+        <div class="top-buffer skill-header col-md-12">
+          <div data-aos="fade-up" class="card z-depth-2">
+            <div class="card-block">
+              <div class="row">
+                <p style="margin-top: 10px" class="col-md-8">If you're associated with a charitable organization or any non-profit I'll build you a website for free. If you're not you can contact me to talk business or just say hi.</p>
                 <div class="col-md-1">
                 </div>
-                <div class="col-md-4 bottom-buffer">
-                    <!--Card-->
-                    <div data-aos="fade-up" class="card card-cascade narrower top-buffer">
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight">
-                            <img src="img/wp.jpg" class="img-fluid" alt="WordPress blog coming soon">
-                            <a>
-                                <div class="mask waves-effect waves-light"></div>
-                            </a>
-                        </div>
-                        <!--Card content-->
-                        <div class="card-block">
-                            <h5 class="card-text"><i class="fa fa-wordpress"></i> Powered by WordPress</h5>
-                        </div>
-                        <!--/.Card-->
-                    </div>
-                </div>
+                <button type="button" class="col-md-2 btn btn-secondary" data-toggle="modal" data-target="#myModal"><i class="mdi mdi-contact-mail"></i>Contact Me
+                                </button>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!--FOOTER-->
-    <section class="footer col-md-12">
-        <div class="row">
-            <div class="col-md-6 about-social top-buffer bottom-buffer">
-                <ul class="text-center">
-                    <li>
-                        <a href="https://www.facebook.com/YamenSharaf"><i class="mdi mdi-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/YamenSharaf"><i class="mdi mdi-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/yamensharaf/"><i class="mdi mdi-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/YamenSharaf"><i class="mdi mdi-github-circle"></i></a>
-                    </li>
-                    <li>
-                        <a href="tel:+20-111-104-6486"><i class="mdi mdi-phone"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://api.whatsapp.com/send?phone=201111046486&text=Hi%20I'm%20coming%20from%20the%20web"><i class="mdi mdi-whatsapp"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://m.me/YamenSharaf"><i class="mdi mdi-facebook-messenger"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-3 top-buffer bottom-buffer">
-                <p>© 2017 Copyright: <a href="https://yamensharaf.tk"> yamensharaf.tk </a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT MODAL -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <!--Content-->
-            <div class="modal-content">
-                <!--Header-->
-                <div class="modal-header">
-                    <h4 class="modal-title w-100 text-left" id="myModalLabel"><i class="mdi mdi-contact-mail"></i>Get in touch</h4>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="mdi mdi-close"></i></button>
-                </div>
-                <!--Body-->
-                <div class="modal-body">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-account prefix"></i>
-                                    <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                                    <label for="name">Your name</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-mail-ru prefix"></i>
-                                    <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <label for="form2">Your email</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-phone prefix"></i>
-                                    <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <label for="form2">Your phone number</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="col-md-12">
-                                <div class="form-group md-form">
-                                    <i class="mdi mdi-message prefix"></i>
-                                    <textarea class="form-control md-textarea" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <label for="form2">What's on your mind?</label>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="col-md-8">
-
-                            </div>
-                            <div class="col-md-4 form-group">
-                                <button type="submit" class="btn btn-secondary"> <i class="mdi mdi-send"></i> Send</button>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-                <!--Footer-->
-                <div class="modal-footer">
-                    <div class="container col-md-12">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <p>
-                                    Not a fan of email? Surely there are other ways
-                                </p>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="about-social">
-                                    <ul class="text-right">
-                                        <li>
-                                            <a href="tel:+20-111-104-6486"><i class="mdi mdi-phone"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://m.me/YamenSharaf"><i class="mdi mdi-facebook-messenger"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://api.whatsapp.com/send?phone=201111046486&text=Hi%20I'm%20coming%20from%20the%20web"><i class="mdi mdi-whatsapp"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!--/.Content-->
-        </div>
+      </div>
     </div>
-    <!-- END MODAL -->
+  </section>
+  <!-- END SECTION D -->
 
-    <!-- Scripts Import -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
-    <!-- PLUGINS SCRIPTS-->
-    <script src="dist/skill-bar/lib/jquery.appear/jquery.appear.js"></script>
-    <script src="dist/skill-bar/js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
-    <script src="dist/color-on-scroll/script.js"></script>
-    <script src="dist/contactme/contact_me.js"></script>
-    <!-- Initiate scrolling libraries -->
-    <script>
-        smoothScroll.init();
-        AOS.init();
-    </script>
-    <script type="text/javascript">
-        let resizeReset = function() {
-            w = canvasBody.width = window.innerWidth;
-            h = canvasBody.height = window.innerHeight;
-        }
+  <!--SECTION E: Blog-->
+  <section id="blog" class="section-e col-md-12 waypoint">
+    <div class="container">
+      <div id="blogPosts" class="row">
+        <div class="top-buffer text-center skill-header col-md-12">
+          <h2> Latest Blog Posts </h2>
+        </div>
+      </div>
+      <div class="row visit-blog top-buffer">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 bottom-buffer">
+          <a target="_blank" href="/blog" class="btn btn-block btn-secondary"><i class="mdi mdi-wordpress"></i> Visit <strong> my blog </strong> and read more</a>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
 
-        const opts = {
-            particleColor: "rgb(200,200,200)",
-            lineColor: "rgb(200,200,200)",
-            particleAmount: 30,
-            defaultSpeed: 1,
-            variantSpeed: 1,
-            defaultRadius: 2,
-            variantRadius: 2,
-            linkRadius: 200,
-        };
+    </div>
+  </section>
 
-        window.addEventListener("resize", function() {
-            deBouncer();
-        });
+  <!--FOOTER-->
+  <section class="footer col-md-12">
+    <div class="row">
+      <div class="col-md-6 about-social top-buffer bottom-buffer">
+        <ul class="text-center">
+          <li>
+            <a href="https://www.facebook.com/YamenSharaf"><i class="mdi mdi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/YamenSharaf"><i class="mdi mdi-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/yamensharaf/"><i class="mdi mdi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/YamenSharaf"><i class="mdi mdi-github-circle"></i></a>
+          </li>
+          <li>
+            <a href="tel:+20-111-104-6486"><i class="mdi mdi-phone"></i></a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=201111046486&text=Hi%20I'm%20coming%20from%20the%20web"><i class="mdi mdi-whatsapp"></i></a>
+          </li>
+          <li>
+            <a href="https://m.me/YamenSharaf"><i class="mdi mdi-facebook-messenger"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-3 top-buffer bottom-buffer">
+        <p>© 2017 Copyright: <a href="https://yamensharaf.tk"> yamensharaf.tk </a></p>
+      </div>
+    </div>
+  </section>
 
-        let deBouncer = function() {
-            clearTimeout(tid);
-            tid = setTimeout(function() {
-                resizeReset();
-            }, delay);
-        };
+  <!-- CONTACT MODAL -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header">
+          <h4 class="modal-title w-100 text-left" id="myModalLabel"><i class="mdi mdi-contact-mail"></i>Get in touch</h4>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="mdi mdi-close"></i></button>
+        </div>
+        <!--Body-->
+        <div class="modal-body">
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row control-group">
+              <div class="col-md-12">
+                <div class="form-group md-form">
+                  <i class="mdi mdi-account prefix"></i>
+                  <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                  <label for="name">Your name</label>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="col-md-12">
+                <div class="form-group md-form">
+                  <i class="mdi mdi-mail-ru prefix"></i>
+                  <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                  <label for="form2">Your email</label>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="col-md-12">
+                <div class="form-group md-form">
+                  <i class="mdi mdi-phone prefix"></i>
+                  <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                  <label for="form2">Your phone number</label>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="col-md-12">
+                <div class="form-group md-form">
+                  <i class="mdi mdi-message prefix"></i>
+                  <textarea class="form-control md-textarea" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                  <label for="form2">What's on your mind?</label>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="row">
+              <div class="col-md-8">
 
-        let checkDistance = function(x1, y1, x2, y2) {
-            return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-        };
+              </div>
+              <div class="col-md-4 form-group">
+                <button type="submit" class="btn btn-secondary"> <i class="mdi mdi-send"></i> Send</button>
+              </div>
+            </div>
 
-        let linkPoints = function(point1, hubs) {
-            for (let i = 0; i < hubs.length; i++) {
-                let distance = checkDistance(point1.x, point1.y, hubs[i].x, hubs[i].y);
-                let opacity = 1 - distance / opts.linkRadius;
-                if (opacity > 0) {
-                    drawArea.lineWidth = 0.5;
-                    drawArea.strokeStyle = `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${opacity})`;
-                    drawArea.beginPath();
-                    drawArea.moveTo(point1.x, point1.y);
-                    drawArea.lineTo(hubs[i].x, hubs[i].y);
-                    drawArea.closePath();
-                    drawArea.stroke();
-                }
-            }
-        }
+          </form>
+        </div>
+        <!--Footer-->
+        <div class="modal-footer">
+          <div class="container col-md-12">
+            <div class="row">
+              <div class="col-md-7">
+                <p>
+                  Not a fan of email? Surely there are other ways
+                </p>
+              </div>
+              <div class="col-md-5">
+                <div class="about-social">
+                  <ul class="text-right">
+                    <li>
+                      <a href="tel:+20-111-104-6486"><i class="mdi mdi-phone"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://m.me/YamenSharaf"><i class="mdi mdi-facebook-messenger"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://api.whatsapp.com/send?phone=201111046486&text=Hi%20I'm%20coming%20from%20the%20web"><i class="mdi mdi-whatsapp"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-        Particle = function(xPos, yPos) {
-            this.x = Math.random() * w;
-            this.y = Math.random() * h;
-            this.speed = opts.defaultSpeed + Math.random() * opts.variantSpeed;
-            this.directionAngle = Math.floor(Math.random() * 360);
-            this.color = opts.particleColor;
-            this.radius = opts.defaultRadius + Math.random() * opts.variantRadius;
-            this.vector = {
-                x: Math.cos(this.directionAngle) * this.speed,
-                y: Math.sin(this.directionAngle) * this.speed
-            };
-            this.update = function() {
-                this.border();
-                this.x += this.vector.x;
-                this.y += this.vector.y;
-            };
-            this.border = function() {
-                if (this.x >= w || this.x <= 0) {
-                    this.vector.x *= -1;
-                }
-                if (this.y >= h || this.y <= 0) {
-                    this.vector.y *= -1;
-                }
-                if (this.x > w) this.x = w;
-                if (this.y > h) this.y = h;
-                if (this.x < 0) this.x = 0;
-                if (this.y < 0) this.y = 0;
-            };
-            this.draw = function() {
-                drawArea.beginPath();
-                drawArea.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-                drawArea.closePath();
-                drawArea.fillStyle = this.color;
-                drawArea.fill();
-            };
-        };
+            </div>
+          </div>
 
-        function setup() {
-            particles = [];
-            resizeReset();
-            for (let i = 0; i < opts.particleAmount; i++) {
-                particles.push(new Particle());
-            }
-            window.requestAnimationFrame(loop);
-        }
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!-- END MODAL -->
 
-        function loop() {
-            window.requestAnimationFrame(loop);
-            drawArea.clearRect(0, 0, w, h);
-            for (let i = 0; i < particles.length; i++) {
-                particles[i].update();
-                particles[i].draw();
-            }
-            for (let i = 0; i < particles.length; i++) {
-                linkPoints(particles[i], particles);
-            }
-        }
+  <!-- Scripts Import -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+  <!-- PLUGINS SCRIPTS-->
+  <script src="dist/skill-bar/lib/jquery.appear/jquery.appear.js"></script>
+  <script src="dist/skill-bar/js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
+  <script src="dist/color-on-scroll/script.js"></script>
+  <script src="dist/contactme/contact_me.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="code.js"></script>
+  <!-- Initiate scrolling libraries -->
+  <script>
+    smoothScroll.init();
+    AOS.init();
+  </script>
+  <script type="text/javascript">
+    let resizeReset = function() {
+      w = canvasBody.width = window.innerWidth;
+      h = canvasBody.height = window.innerHeight;
+    }
 
-        const canvasBody = document.getElementById("canvas"),
-            drawArea = canvasBody.getContext("2d");
-        let delay = 200,
-            tid,
-            rgb = opts.lineColor.match(/\d+/g);
+    const opts = {
+      particleColor: "rgb(200,200,200)",
+      lineColor: "rgb(200,200,200)",
+      particleAmount: 30,
+      defaultSpeed: 1,
+      variantSpeed: 1,
+      defaultRadius: 2,
+      variantRadius: 2,
+      linkRadius: 200,
+    };
+
+    window.addEventListener("resize", function() {
+      deBouncer();
+    });
+
+    let deBouncer = function() {
+      clearTimeout(tid);
+      tid = setTimeout(function() {
         resizeReset();
-        setup();
-    </script>
+      }, delay);
+    };
+
+    let checkDistance = function(x1, y1, x2, y2) {
+      return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    };
+
+    let linkPoints = function(point1, hubs) {
+      for (let i = 0; i < hubs.length; i++) {
+        let distance = checkDistance(point1.x, point1.y, hubs[i].x, hubs[i].y);
+        let opacity = 1 - distance / opts.linkRadius;
+        if (opacity > 0) {
+          drawArea.lineWidth = 0.5;
+          drawArea.strokeStyle = `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${opacity})`;
+          drawArea.beginPath();
+          drawArea.moveTo(point1.x, point1.y);
+          drawArea.lineTo(hubs[i].x, hubs[i].y);
+          drawArea.closePath();
+          drawArea.stroke();
+        }
+      }
+    }
+
+    Particle = function(xPos, yPos) {
+      this.x = Math.random() * w;
+      this.y = Math.random() * h;
+      this.speed = opts.defaultSpeed + Math.random() * opts.variantSpeed;
+      this.directionAngle = Math.floor(Math.random() * 360);
+      this.color = opts.particleColor;
+      this.radius = opts.defaultRadius + Math.random() * opts.variantRadius;
+      this.vector = {
+        x: Math.cos(this.directionAngle) * this.speed,
+        y: Math.sin(this.directionAngle) * this.speed
+      };
+      this.update = function() {
+        this.border();
+        this.x += this.vector.x;
+        this.y += this.vector.y;
+      };
+      this.border = function() {
+        if (this.x >= w || this.x <= 0) {
+          this.vector.x *= -1;
+        }
+        if (this.y >= h || this.y <= 0) {
+          this.vector.y *= -1;
+        }
+        if (this.x > w) this.x = w;
+        if (this.y > h) this.y = h;
+        if (this.x < 0) this.x = 0;
+        if (this.y < 0) this.y = 0;
+      };
+      this.draw = function() {
+        drawArea.beginPath();
+        drawArea.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        drawArea.closePath();
+        drawArea.fillStyle = this.color;
+        drawArea.fill();
+      };
+    };
+
+    function setup() {
+      particles = [];
+      resizeReset();
+      for (let i = 0; i < opts.particleAmount; i++) {
+        particles.push(new Particle());
+      }
+      window.requestAnimationFrame(loop);
+    }
+
+    function loop() {
+      window.requestAnimationFrame(loop);
+      drawArea.clearRect(0, 0, w, h);
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].update();
+        particles[i].draw();
+      }
+      for (let i = 0; i < particles.length; i++) {
+        linkPoints(particles[i], particles);
+      }
+    }
+
+    const canvasBody = document.getElementById("canvas"),
+      drawArea = canvasBody.getContext("2d");
+    let delay = 200,
+      tid,
+      rgb = opts.lineColor.match(/\d+/g);
+    resizeReset();
+    setup();
+  </script>
 
 </body>
 
