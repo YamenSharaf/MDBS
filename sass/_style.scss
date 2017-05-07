@@ -296,6 +296,10 @@ $arabic:                    Amiri, serif !default;
 
 
   .card {
+
+    img {
+      background-size: contain;
+    }
     .card-block {
       background-color: $my-white !important;
     }
@@ -306,6 +310,11 @@ $arabic:                    Amiri, serif !default;
       letter-spacing: 1px;
     }
   }
+
+  .btn {
+    font-size: 1.3em;
+  }
+
 }
 
 //FOOTER
