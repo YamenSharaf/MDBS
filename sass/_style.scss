@@ -261,6 +261,8 @@ $arabic:                    Amiri, serif !default;
     }
     p {
       color: $my-purple !important;
+      line-height: 1.2em;
+      text-align: justify;
       &::selection {
         background: #E48EB7;
       }

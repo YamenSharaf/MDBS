@@ -46,7 +46,7 @@ axios.get('http://yamensharaf.tk/blog/api/get_category_posts/?slug=portfolio').t
           </div>
           <div class="card-block">
             <!--Title-->
-            <h4 class="card-title">${title}</h4>
+            <h4 class="card-title text-center">${title}</h4>
             <p class="card-text">${text}</p>
             <a target="_blank" href=${sublink} class="btn btn-block btn-secondary"><i class="mdi mdi-eye"></i>${button}</a>
           </div>
